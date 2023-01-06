@@ -1,0 +1,14 @@
+.header .colSearch {
+    display: flex;
+}
+
+.headerRow{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1290px) {
+    .header .colSearch{
+        display: none;
+    }
+}

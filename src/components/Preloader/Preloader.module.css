@@ -1,0 +1,7 @@
+.preloader {
+    height: calc(100vh - 70px - 64px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}

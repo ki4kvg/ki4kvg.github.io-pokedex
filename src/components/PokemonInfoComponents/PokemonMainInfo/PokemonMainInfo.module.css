@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Nunito:600');
+
+.cardColumn {
+    background: #bbbbff;
+    box-shadow: 10px 5px 5px grey;
+    border-radius: 10px;
+    height: 600px;
+    width: 400px;
+}
+
+.cardColumn div {
+    font-size: 18px;
+}
+
+.cardColumn .slider :global(.slick-dots li button) {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.HPBar {
+    width: 200px;
+    height: 10px;
+    background: linear-gradient(to right, #a86e3c, #f5ae67);;
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+}
+
+.shortStats {
+    max-width: 400px;
+}
+
+.pokemonStatsType {
+    border-radius: 5px;
+    background-color: #555555;
+    color: snow;
+}
+
+.weightColumn {
+    border-right: solid 2px whitesmoke;
+    border-left: solid 2px whitesmoke;
+}
+
+.pokemonName {
+    margin: 10px 0 10px 0;
+}
+
+@media (max-width: 480px){
+    .shortStats {
+        max-width: 360px;
+    }
+    .cardColumn {
+        background: #bbbbff;
+        box-shadow: 10px 5px 5px grey;
+        border-radius: 10px;
+        height: 540px;
+        width: 360px;
+    }
+}

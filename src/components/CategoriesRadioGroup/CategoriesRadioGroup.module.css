@@ -1,0 +1,19 @@
+.checkboxGroup :global(.ant-checkbox-group) {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox label {
+    margin: unset !important;
+}
+
+.checkbox span {
+    min-width: 0;
+    color: white;
+    text-transform: capitalize;
+}
+
+.checkboxAll span {
+    color: white;
+    text-transform: capitalize;
+}

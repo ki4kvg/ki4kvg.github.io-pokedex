@@ -1,0 +1,46 @@
+@media screen and (min-width: 480px) {
+    .fullInfoStatsColumns {
+        padding-right: 10px;
+        padding-left: 10px;
+        min-width: 200px;
+    }
+}
+
+.fullInfoColumn {
+    margin: 10px 5px 10px 5px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey;
+    background: #bbbbff;
+}
+
+.fullInfoColumn div{
+    font-size: 20px;
+}
+
+.fullInfoStatsRow {
+    border-top: solid 2px black;
+    font-size: 50px;
+    padding: 10px
+}
+
+.fullInfoStatsRow .baseStatsRow {
+    justify-content: space-between;
+}
+
+.fullInfoAllStatsTypes {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.fullInfoStatsColumns {
+    padding-right: 10px;
+    padding-left: 10px;
+    min-width: 250px;
+}
+
+.baseStatsCol :global(.ant-row) {
+    justify-content: space-between;
+    border-bottom: solid 2px #001529;
+}

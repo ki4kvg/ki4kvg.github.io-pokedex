@@ -1,0 +1,22 @@
+
+:global(.ant-drawer-content-wrapper) {
+    max-width: 250px;
+}
+
+.drawer :global(.ant-drawer-wrapper-body){
+    color: whitesmoke ;
+    background-color: #001529 ;
+}
+
+.drawer :global(.ant-drawer-title){
+    color: whitesmoke ;
+}
+
+.drawer :global(.ant-drawer-header-title) button{
+    color: whitesmoke ;
+}
+
+.searchBar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

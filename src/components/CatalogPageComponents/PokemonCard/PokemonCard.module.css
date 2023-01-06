@@ -1,0 +1,19 @@
+.cardMeta div{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.cardMeta span{
+    height: 100px;
+    width: 100px;
+}
+
+.cardMeta img{
+    height: 100px;
+    width: 100px;
+}
+
+.card {
+    min-width: 250px;
+    min-height: 150px;
+}

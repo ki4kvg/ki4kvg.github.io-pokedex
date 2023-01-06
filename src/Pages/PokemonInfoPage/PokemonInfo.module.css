@@ -1,0 +1,11 @@
+.mainRow {
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    min-height: calc(100vh - 64px);
+    text-transform: capitalize;
+}
+
+.mainRow :global(.ant-row) {
+    justify-content: center;
+}

@@ -1,0 +1,8 @@
+.descriptionItem {
+    font-size: 18px;
+}
+
+.descriptionContainer div{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,30 @@
+.paginatorBlock {
+    margin-top: 20px;
+}
+
+.layoutBlock {
+    min-height: 100vh !important;
+}
+
+.catalogRow {
+    padding-top: 16px;
+}
+
+
+
+
+.menu {
+    border-radius: 0;
+}
+
+@media (min-width: 1290px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1290px) {
+    .sider {
+        display: none;
+    }
+}
