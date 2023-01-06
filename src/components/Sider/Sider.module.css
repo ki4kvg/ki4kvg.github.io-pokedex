@@ -2,3 +2,9 @@
     padding-top: 10px;
     padding-left: 20px;
 }
+
+@media (max-width: 1290px) {
+    .sider {
+        display: none;
+    }
+}
