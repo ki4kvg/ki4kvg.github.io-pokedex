@@ -9,7 +9,7 @@ import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Layout className={st.layoutBlock}>
                 <HeaderComponent/>
                 <Routes>
